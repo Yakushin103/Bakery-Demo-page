@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Описание для сайта">
+    <meta name="keywords" content="сайт, приложение, html, css">
+    <meta name="author" content="Якушин Василий">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/modernizr.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="container nav__items">
+          <div class="nav__link">
+            <img src="img/head-logo.png" alt="">
+          </div>
+          <div class="nav__link nav__link_menu">
+            <a href="#">Welcome</a>
+            <span><i class="fab fa-slack-hash"></i></span>
+            <a href="#">Menu</a>
+            <span><i class="fab fa-slack-hash"></i></span>
+            <a href="#">Reservations</a>
+            <span><i class="fab fa-slack-hash"></i></span>
+            <a href="#">News</a>
+            <span><i class="fab fa-slack-hash"></i></span>
+            <a href="#">Contact</a>
+          </div>
+          <div class="nav__link nav__link_social">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="header__content">
+        <h1>Pastry with love</h1>
+        <h5>We're bringing you fresh ingredients every</h5>
+        <h5>day in ways you can't resist</h5>
+        <div class="button">
+          <a href="#" class="btn">our menu</a>
+        </div>
+      </div>
+    </header>
+    <section class="art">
+      <div class="art__items">
+        <div class="art__link art__link_content">
+          <h3>Art of cakes</h3>
+          <h6>we create delicious memories</h6>
+          <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
+          <h4>Chef Cook</h4>
+          <div class="art__shef">
+            <h4>Benito</h4>
+            <img src="img/art-pic_shef.png" alt="Shef">
+            <h4>Gaspare</h4>
+          </div>
+          <div class="art__shef">
+            <span><i class="far fa-hand-point-right"></i></span>
+            <img src="img/art-title_2.png" alt="">
+            <span><i class="far fa-hand-point-left"></i></span>
+          </div>
+        </div>
+        <div class="art__link art__link_pic">
+          <div class="art__pic__titl">
+            <h4>Tastes so good!</h4>
+          </div>
+          <div class="art__pic">
+            <span></span>
+          </div>
+          <div class="art__pic art__pic_2">
+            <span></span>
+          </div>
+          <div class="art__pic art__pic_3">
+            <span></span>
+          </div>
+          <div class="art__pic art__pic_4">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="recipe">
+      <div id="slider" class="slider">
+        <ol class="slider__indicators">
+          <li class="slider__indicator slider__indicator_active slider__indicator_1" data-slide-to="0"></li>
+          <li class="slider__indicator slider__indicator_2" data-slide-to="1"></li>
+          <li class="slider__indicator slider__indicator_1" data-slide-to="2"></li>
+        </ol>
+        <div class="slider__items">
+          <div class="slider__item slider__item_active">
+            <div class="recipe__item">
+              <div class="recipe__time">
+                <h6>ready in</h6>
+                <h3>40</h3>
+                <p>mins</p>
+              </div>
+              <div class="recipe__link recipe__link_pic"></div>
+              <div class="recipe__link recipe__link_content">
+                <h3>Tasty pancakes</h3>
+                <h6>Season favourite</h6>
+                <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="recipe__item">
+              <div class="recipe__time">
+                <h6>ready in</h6>
+                <h3>20</h3>
+                <p>mins</p>
+              </div>
+              <div class="recipe__link recipe__link_pic_1"></div>
+              <div class="recipe__link recipe__link_content">
+                <h3>Tasty pancakes</h3>
+                <h6>Season favourite</h6>
+                <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="recipe__item">
+              <div class="recipe__time">
+                <h6>ready in</h6>
+                <h3>40</h3>
+                <p>mins</p>
+              </div>
+              <div class="recipe__link recipe__link_pic"></div>
+              <div class="recipe__link recipe__link_content">
+                <h3>Tasty pancakes</h3>
+                <h6>Season favourite</h6>
+                <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="slider__control slider__control_prev" href="#" role="button"></a>
+        <a class="slider__control slider__control_next" href="#" role="button"></a>
+      </div>
+    </section>
+    <section class="advice">
+      <div class="container advice__items">
+        <div class="advice__link advice__link_content">
+          <h3>Breakfast</h3>
+          <h6>7AM breakfast? we're open!</h6>
+          <h4>Full breakfast</h4>
+          <p>Duis ut tortor, et risus, vulputate pretium</p>
+          <h5>$12.49</h5>
+          <i class="fas fa-crown"></i>
+          <h4>Toast & Jam</h4>
+          <p>Suspendisse, tempus, nterdum</p>
+          <h5>$4.90</h5>
+          <i class="fas fa-crown"></i>
+          <h4>Muffins</h4>
+          <p>Fusce eget dui sodales est</p>
+          <h5>$3.95</h5>
+        </div>
+        <div class="advice__link advice__link_menu">
+          <div class="advice__link_list corner">
+            <div class="advice__content">
+              <div class="menu__header">
+                <p>EST.</p>
+                <p>1893</p>
+              </div>
+              <span></span>
+              <h3>Your morning</h3>
+              <h3>Escape with Flair</h3>
+              <p>Donec vitae saplen ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+              <a href="#" class="btn">Read</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sandwich">
+      <div class="container">
+        <h2>The jibarito sandwich</h2>
+        <h6>the best sandwich you've ever tasted!</h6>
+        <div class="sandwich__content">
+          <div class="sandwich__links">
+            <div class="sandwich__link">
+              <img src="img/sandwich-pic_1.png" alt="">
+              <h4>Class aptent</h4>
+              <p>Quot alienum persecuti ut eam, nam ad atqui primis nusquam.</p>
+            </div>
+            <div class="sandwich__link">
+              <img src="img/sandwich-pic_2.png" alt="">
+              <h4>Nulla eget</h4>
+              <p>Nuliam dietum felis eu pede mollis pretium lnteger tincidunt.</p>
+            </div>
+            <div class="sandwich__link">
+              <img src="img/sandwich-pic_3.png" alt="">
+              <h4>Sed nibh purus</h4>
+              <p>Aenean eleifend tellus leo ligula, porttitor eu, consequat vitae.</p>
+            </div>
+          </div>
+          <div class="sandwich__links sandwich__links_pic">
+            <div class="sandwich__pic"></div>
+            <div class="sandwich__btn">
+              <a href="#" class="btn">Full recipe</a>
+            </div>
+            <div class="band">
+              <div class="band__link">
+                <h4>prep</h4>
+                <h3>15</h3>
+                <p>mins</p>
+              </div>
+              <div class="band__link">
+                <h4>cook</h4>
+                <h3>35</h3>
+                <p>mins</p>
+              </div>
+              <div class="band__link band__link_white">
+                <h4>ready in</h4>
+                <h3>50</h3>
+                <p>mins</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container footer__items">
+        <div class="footer__link">
+          <a href="#">Our menu</a>
+          <span><i class="fab fa-slack-hash"></i></span>
+          <a href="#">Gallery</a>
+          <span><i class="fab fa-slack-hash"></i></span>
+          <a href="#">culture</a>
+        </div>
+        <div class="footer__logo">
+          <img src="img/footer-logo.png" alt="">
+        </div>
+        <div class="footer__link">
+          <a href="#">Events</a>
+          <span><i class="fab fa-slack-hash"></i></span>
+          <a href="#">catering</a>
+          <span><i class="fab fa-slack-hash"></i></span>
+          <a href="#">visit us</a>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="js/slider.js"></script>
+  </body>
+
+
+
+</html>
